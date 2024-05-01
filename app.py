@@ -5,7 +5,7 @@ from transformers import pipeline
 
 sentiment_model = pipeline(model="ashok2216/gpt2-amazon-sentiment-classifier")
 
-st.text('Hi')
+st.write('Hi')
 
 sentiments = []
 for text in df['clean_text']:
