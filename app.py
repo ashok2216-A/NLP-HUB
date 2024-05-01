@@ -3,7 +3,7 @@ import seaborn as sns
 from transformers import pipeline
 
 
-sentiment_model = pipeline(model="ashok2216/gpt2-amazon-sentiment-classifier")
+sentiment_model = pipeline(model="sentiment-analysis")
 
 st.write('Hi')
 
