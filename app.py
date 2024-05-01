@@ -1,9 +1,11 @@
+import steamlit as st
 import seaborn as sns
-import
 from transformers import pipeline
 
 
 sentiment_model = pipeline(model="ashok2216/gpt2-amazon-sentiment-classifier")
+
+st.text('Hi')
 
 sentiments = []
 for text in df['clean_text']:
