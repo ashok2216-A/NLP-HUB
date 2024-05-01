@@ -1,5 +1,7 @@
-from transformers import pipeline
 import seaborn as sns
+import
+from transformers import pipeline
+
 
 sentiment_model = pipeline(model="ashok2216/gpt2-amazon-sentiment-classifier")
 
