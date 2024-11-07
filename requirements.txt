@@ -2,7 +2,7 @@ transformers==4.38.0
 seaborn==0.12.2
 streamlit==1.37.0
 torch==2.3.0
-nltk==3.8.1
+nltk==3.9
 requests==2.32.0
 beautifulsoup4==4.12.3
 pandas==2.2.2
